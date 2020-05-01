@@ -568,4 +568,179 @@ background-color:rgba(0,0,0,0.0);
 }
 .theme-dark .jumpToPresentBar-9P20AM:hover {
     background-color: rgba(0,0,0,0.2);
+/* new message box */
+.wrapper-232cHJ {
+    background-color: #123;
+}
+
+/* Mentioned Box on chat */
+.theme-dark .isMentioned-N-h9aa {
+    background: rgba(26, 62, 250, 0.1);
+}
+.isMentionedCozy-3isp7y:after {
+    background: transparent;
+    border-left: 4px solid #123;
+}
+
+/* Emoji Area */
+.theme-dark  #bda-qem button {
+    background: hsla(0,5%,0%,.5);
+    border-left: 1px solid #242424;
+    box-shadow: #123 1px 0 0 0;
+}
+
+/* Emoji buttons hover */
+ #bda-qem button:hover {
+    background-color: hsla(0,5%,0%,.3);
+}
+
+/* Emoji area background transparency */
+ #bda-qem {
+    border-bottom: 1px solid #123 !important;
+    background: hsla(0,5%,0%,.3);
+}
+
+/* Emoji button selected */
+ #bda-qem button.active {
+    background-color: hsla(0,5%,0%,.7);
+}
+
+/* Borders and etc of emoji buttons at top */
+ #bda-qem button {
+    background: hsla(0,5%,0%,.3);
+    border-left: 1px solid #123;
+    box-shadow: #123 1px 0 0 0;
+}
+
+/* Transparency of emoji page menu twitch and etc */
+ #bda-qem-favourite-container,  #bda-qem-twitch-container {
+    background-color: hsla(0,5%,0%,.1);
+}
+
+/* Scroller part of emoji area (favorite and twitch by order)*/
+ #bda-qem-favourite-container .scroller::-webkit-scrollbar,  #bda-qem-favourite-container .scroller::-webkit-scrollbar-track,  #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece {
+    background-color: hsla(0,5%,0%,.1) !important;
+    border-color: #123 !important;
+}
+ #bda-qem-twitch-container .scroller::-webkit-scrollbar,  #bda-qem-twitch-container .scroller::-webkit-scrollbar-track,  #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece,  #pubs-container .scroller::-webkit-scrollbar,  #pubs-container .scroller::-webkit-scrollbar-track,  #pubs-container .scroller::-webkit-scrollbar-track-piece {
+    background-color: hsla(0,5%,0%,.1) !important;
+    border-color: #123 !important;
+}
+
+/* box at emoji main area for searching */
+.search-bar.search-bar-light .search-bar-inner {
+    background-color: rgba(0,0,0,0.3);
+    border: 1px solid #123;
+}
+
+/* AKA button */
+.aka-1mqp34 {
+    background: #123;
+}
+
+/* Online Button */
+.theme-dark #friends .tab-bar .tab-bar-item.selected {
+    background-color: #123;
+    color: #ffffff;
+}
+
+/* Add Friend button Normal and Hover and selected */
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {
+    background-color: #123;
+    color: #fff;
+}
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
+    background-color: #0b1723;
+}
+
+/* More hover buttons */
+.theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected) {
+    background-color: rgba(17, 34, 51, 0.47);
+}
+
+/* Text channel menu when doing # */
+.theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected) {
+    background-color: rgba(17, 34, 51, 0.47);
+}
+.theme-dark .selectorSelected-1_M1WV {
+    background-color: rgba(17, 34, 51, 0.43);
+}
+.theme-dark .autocomplete-1vrmpx {
+    background-color: rgba(0,0,0,0.6);
+    border: 1px solid #123;
+}
+
+/* startup page error */
+.bd-modal-wrapper .bd-modal-body {
+    background-color: transparent;
+}
+.theme-dark .inner-1JeGVc {
+    border: 1px solid #123;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.6);
+}
+.theme-dark .inner-1JeGVc {
+    border: 1px solid #123;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.6);
+}
+
+/* startup page button normal and hover */
+.bd-modal-wrapper .footer button {
+    background-color: #123;
+}
+.bd-modal-wrapper .footer button:hover {
+    background-color: #0b1723;
+/* notification settings on menu */
+.theme-dark .select-2TCrqx .Select-menu-outer {
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    background: rgba(0,0,0,0.0);
+    border-color: #123;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+}
+
+/* Quick Switcher panel box */
+.channelNotices-41mJbj .channelNotice-1-XFjC.quickswitcher-35bYg4 {
+    background-color: rgba(0,0,0,0.4);
+    padding: 100px 20px 20px;
+    border: 1px solid #123;
+    border-radius: 15px;
+}
+
+/* Quick Switcher panel button transparency and border */
+.channelNotices-41mJbj .channelNotice-1-XFjC .message-3SOT5P .btn-11C5_u {
+    background-color: rgba(0,0,0,0.4);
+    border: 1px solid #123;
+    border-radius: 5px;
+}
+/* Mention color and background */
+.theme-dark .wrapperHover-1GktnT:hover {
+    background-color: rgba(114, 218, 130, 0.7);
+    color: #fff;
+}
+.theme-dark .wrapper-3WhCwL {
+    background-color: rgba(114, 218, 126, 0.1);
+    color: #01f716;
+}
+/* store stuff */
+.da-app .applicationStore-1pNvnv, .da-app .gameLibrary-TTDw4Y {
+    background-color: rgba(0,0,0,0.0);
+}
+.da-app .headerBar-UHpsPw {
+    background:transparent;
+}
+.theme-dark .distributionApplicationsActions-3D2_kD, .theme-dark .premiumApplicationsHeader-Zmkm5e {
+    border-color: #123;
+}
+.theme-dark .itemBackground-1jfD8p:before {
+    background: radial-gradient(ellipse at top,transparent,#123),linear-gradient(90deg,#123 0,transparent 40%,transparent 60%,#123),linear-gradient(0deg,#123 10%,transparent 70%);
+}
+.theme-dark .mediaDescription-31GsyQ {
+    background: linear-gradient(180deg,transparent,rgba(17, 34, 51, 0.75) 45%,#123);
+}
+.theme-dark .tileWrapper-2khh-w:hover, .theme-dark .popout-2xBvMR {
+    background-color: #123;
+}
+.theme-dark .searchBox-3Y2Vi7 {
+    background-color: rgba(21, 37, 64, 0.46);
 }
