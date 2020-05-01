@@ -1,0 +1,30 @@
+/* background */
+.da-appMount {
+    background: var(--background-image);
+}
+/* setting transparency */
+.container-2lgZY8, .sidebar-2K8pFh, .activityFeed-1C0EmJ, .da-app .wrapper-1Rf91z, .channels-Ie2l6A, .container-PNkimc, .da-app .container-2Thooq, .da-app .chat-3bRxxu, .da-app .chat-3bRxxu form, .da-app .content-yTz4x3, .da-app .layer-3QrUeG, .da-app .layers-3iHuyZ, .da-app .title-3qD0b-, .da-app .headerBar-UHpsPw, .da-app .members-1998pB, .da-app .messagesWrapper-3lZDfY, .da-app #friends, .da-app .activityFeed-28jde9, .da-app .ui-standard-sidebar-view, .da-app .ui-standard-sidebar-view .content-region, .da-app .ui-standard-sidebar-view .sidebar-region, .da-app .noChannel-Z1DQK7, .da-app .gameLibrary-TTDw4Y, .da-app .applicationStore-1pNvnv, .da-app .container-3gCOGc, .da-app .root-1BQpZw, .theme-dark .gameLibrary-TTDw4Y {
+	background-color: var(--transparency-level);
+}
+.titleBar-AC4pGV {
+	background: var(--transparency-level-top);
+	margin-top: 0px;
+	padding-top: 4px;
+}
+/* fix on new update transparency of settings */
+.theme-dark .standardSidebarView-3F1I7i {
+    background-color: var(--transparency-settings);
+}
+
+/* removing backgrounds */
+.da-app .chat-3bRxxu form, .da-app .container-2Thooq, .panels-j1Uci_, .da-app .headerBar-UHpsPw, .da-app .messagesWrapper-3lZDfY, .da-app .members-1998pB, .da-app .inner-zqa7da, .da-app .typing-2GQL18, .da-app .wrapper-29NfPK, .search-bar, .da-app .markup-2BOw-j pre, .da-app .hljs, .da-app .markup-2BOw-j code, .da-app .markup-2BOw-j code.inline, .da-app .contentRegion-3nDuYy, .da-app .sidebarRegion-VFTUkN {
+	background: none;
+}
+
+/* fixes */
+.theme-dark {
+    --background-primary: none;
+    --background-secondary: none;
+    --background-tertiary: none;
+    --background-accent: none;
+}
