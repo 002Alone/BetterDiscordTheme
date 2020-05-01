@@ -744,3 +744,7 @@ background-color:rgba(0,0,0,0.0);
 .theme-dark .searchBox-3Y2Vi7 {
     background-color: rgba(21, 37, 64, 0.46);
 }
+
+/* Chat area */
+.content-yTz4x3 .flex-spacer, .content-yTz4x3 { background:rgba(0,0,0,0.8)!important; }
+}
