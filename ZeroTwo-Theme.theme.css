@@ -1,0 +1,18 @@
+//META{"name":"02 Theme by kualper","description":"Darling In The Franxx Discord theme","author":"002Alone#2054","version":"1.0"}*//{}
+
+@import url(https://raw.githack.com/002Alone/BetterDiscordTheme/master/Transparency2.css);
+@import url(https://rawcdn.githack.com/002Alone/BetterDiscordTheme/9029b21c42e3676d59e10fa126e389ea3555ef0f/Code.css);
+:root {
+	/* background URL */ /* default url https://i.imgur.com/OxmgqBu.jpg */
+	--background-image: url(https://i.imgur.com/OxmgqBu.jpg) center/cover no-repeat;
+	/* Guild and Top bar transparency */
+	--transparency-1: linear-gradient(to left, rgba(0,0,0,0.85), rgba(0,0,0,0.75));
+	/* transparency for channels and private channels */
+	--transparency-2: linear-gradient(to right, rgba(0,0,0,0.85), rgba(0,0,0,0.65));
+	/* chat and top area and other secondary pages */
+	--transparency-3: linear-gradient(to right, rgba(0,0,0,0.65), rgba(0,0,0,0.55));
+	/* member list */
+	--transparency-4: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.65));
+	/* transparecy with gradient of top bar */
+	--transparency-5: linear-gradient(to right, rgba(0,0,0,0.85), rgba(0,0,0,0.75),rgba(0,0,0,0.65), rgba(0,0,0,0.62), rgba(0,0,0,0.60),rgba(0,0,0,0.55), rgba(0,0,0,0.55));
+}
